@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="Content/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/style.css" type="text/css">
+    <link href="Content/css/custom.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!-- Humberger Begin -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+        <div class="humberger__menu__logo">
+            <a href="#"><img src="Content/img/logo.jpg" alt=""></a>
+        </div>
+        <div class="humberger__menu__cart">
+            <ul>
+                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+            </ul>
+            <div class="header__cart__price">item: <span>$150.00</span></div>
+        </div>
+        <div class="humberger__menu__widget">
+            <div class="header__top__right__language">
+                <img src="img/language.png" alt="">
+                <div>English</div>
+                <span class="arrow_carrot-down"></span>
+                <ul>
+                    <li><a href="#">Spanis</a></li>
+                    <li><a href="#">English</a></li>
+                </ul>
+            </div>
+            <div class="header__top__right__auth">
+                <a href="#"><i class="fa fa-user"></i> Login</a>
+            </div>
+        </div>
+        <nav class="humberger__menu__nav mobile-menu">
+            <ul>
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./shop-grid.html">Shop</a></li>
+                <li>
+                    <a href="#">Pages</a>
+                    <ul class="header__menu__dropdown">
+                        <li><a href="./shop-details.html">Shop Details</a></li>
+                        <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                        <li><a href="./checkout.html">Check Out</a></li>
+                        <li><a href="./blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+        <div class="header__top__right__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        </div>
+        <div class="humberger__menu__contact">
+            <ul>
+                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
+                <li>Free Shipping for all Order of $99</li>
+            </ul>
+        </div>
+    </div>
+    <!-- Humberger End -->
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="Content/img/logo.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <nav class="header__menu">
+                        <ul class="text-center">
+                            <li class="active"><a href="Default">Trang chủ</a></li>
+                            <li><a href="#">Tích điểm</a></li>
+                            <li><a target="_blank" href="https://dienquang.com/blogs/tin-khuyen-mai">Khuyến mãi</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-2">
+                    <div class="header__cart">
+                        <div class="header__cart__price"><i class="fa fa-user"></i><span>&nbsp;&nbsp;ĐĂNG NHẬP</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-envelope"></i> Giao hàng nhanh chóng</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__top__left">
+                            <ul class="text-center">
+                                <li><i class="fa fa-envelope"></i> Bảo hành 1 đổi 1</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__top__left">
+                            <ul class="text-center">
+                                <li><i class="fa fa-envelope"></i> Tư vấn tận tình</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__top__left">
+                            <ul class="text-right">
+                                <li><i class="fa fa-envelope"></i> Thanh toán linh hoạt</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- Header Section End -->
+    <!-- Hero Section Begin -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="hero__categories">
+                        <div class="hero__categories__all">
+                            <i class="fa fa-bars"></i>
+                            <span>Danh mục</span>
+                        </div>
+                        <ul>
+                            <li class="active1"><a href="#">Thông tin khách hàng</a></li>
+                            <li>
+                                <a href="#" class="drop">Danh sách sản phẩm</a>
+                            </li>
+                            <li>
+                                <a href="#" class="cssChild"><i class="fa fa-barcode"></i>&nbsp;&nbsp;Đã scan</a>
+                            </li>
+                            <li>
+                                <a href="#" class="cssChild"><i class="fa fa-gg"></i>&nbsp;&nbsp;Đã yêu cầu bảo hành</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row featured__filter">
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/featured/1.png">
+                                    <!--<ul class="featured__item__pic__hover">
+                                        <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>-->
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Bộ đèn LED High bay HERA 1 - 100</a></h6>
+                                        <span class="text-danger float-left font-weight-bold">14/10/2021</span>
+                                        <div class="product__details__rating float-right">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/featured/2.png">
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Bộ đèn LED pha OLYMPUS 100</a></h6>
+                                    <div>
+                                        <span class="text-danger float-left font-weight-bold">14/10/2021</span>
+                                        <div class="product__details__rating float-right">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/featured/3.png">
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Bộ đèn LED pha NEPTUNE 50</a></h6>
+                                    <div>
+                                        <span class="text-danger float-left font-weight-bold">14/10/2021</span>
+                                        <div class="product__details__rating float-right">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/featured/4.png">
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Bộ đèn LED pha OLYMPUS 200</a></h6>
+                                    <div>
+                                        <span class="text-danger float-left font-weight-bold">14/10/2021</span>
+                                        <div class="product__details__rating float-right">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/featured/4.png">
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Bộ đèn LED pha NEPTUNE 200</a></h6>
+                                    <div>
+                                        <span class="text-danger float-left font-weight-bold">14/10/2021</span>
+                                        <div class="product__details__rating float-right">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/featured/6.png">
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Bộ đèn LED pha NEPTUNE 200</a></h6>
+                                    <div>
+                                        <span class="text-danger float-left font-weight-bold">14/10/2021</span>
+                                        <div class="product__details__rating float-right">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/featured/7.png">
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Bộ đèn LED Chống thấm Điện Quang ĐQ WP04 600</a></h6>
+                                    <div>
+                                        <span class="text-danger float-left font-weight-bold">14/10/2021</span>
+                                        <div class="product__details__rating float-right">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
+                            <div class="featured__item">
+                                <div class="featured__item__pic set-bg" data-setbg="img/featured/8.png">
+                                </div>
+                                <div class="featured__item__text">
+                                    <h6><a href="#">Máng LED chống thấm Điện Quang ĐQ LWP02 218P2</a></h6>
+                                    <div>
+                                        <span class="text-danger float-left font-weight-bold">14/10/2021</span>
+                                        <div class="product__details__rating float-right">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-half-o"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+    <script>
+        !function (t, e, c, n) { const o = document.createElement("script"); o.src = "https://cdn.jsdelivr.net/npm/quickomcc-widget@0.0.9/dist/quickomcc-widget/quickomcc-widget.esm.js", o.type = "module", o.setAttribute("async", !0); const s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(o, s); const i = document.createElement("quickomcc-fab"); i.setAttribute("items", '[{"url": "https://cc.quickom.com/call/79281621480049691?c=1", "popupWindow": true, "windowHeight": 562, "windowWidth": 448, "type": "circle", "logo": "video" },{"onClick":"abKiteCallSDK.kiteCall()", "type": "circle", "logo": "voice"}, {"onClick":"document.querySelector(\\".ab-kite-wrapper:not(.ab-kite-call) .ab-kite-desk\\").click()", "type": "circle", "logo": "chat"}]'), i.setAttribute("style", n), document.body.appendChild(i) }(window, document, "", "--fab-right: 35px; --fab-bottom: 15px; --fab-background: #e60000; --fab-tooltip-color: #e60000");
+    </script>
+    <quickomcc-fab items="[{&quot;url&quot;: &quot;https://cc.quickom.com/call/79281621480049691?c=1&quot;, &quot;popupWindow&quot;: true, &quot;windowHeight&quot;: 562, &quot;windowWidth&quot;: 448, &quot;type&quot;: &quot;circle&quot;, &quot;logo&quot;: &quot;video&quot; },{&quot;onClick&quot;:&quot;abKiteCallSDK.kiteCall()&quot;, &quot;type&quot;: &quot;circle&quot;, &quot;logo&quot;: &quot;voice&quot;}, {&quot;onClick&quot;:&quot;document.querySelector(\&quot;.ab-kite-wrapper:not(.ab-kite-call) .ab-kite-desk\&quot;).click()&quot;, &quot;type&quot;: &quot;circle&quot;, &quot;logo&quot;: &quot;chat&quot;}]" style="--fab-right: 35px; --fab-bottom: 15px; --fab-background: #e60000; --fab-tooltip-color: #e60000" class="hydrated"></quickomcc-fab>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Js Plugins -->
+    <script src="Content/js/jquery-3.3.1.min.js"></script>
+    <script src="Content/js/bootstrap.min.js"></script>
+    <script src="Content/js/jquery.nice-select.min.js"></script>
+    <script src="Content/js/jquery-ui.min.js"></script>
+    <script src="Content/js/jquery.slicknav.js"></script>
+    <script src="Content/js/mixitup.min.js"></script>
+    <script src="Content/js/owl.carousel.min.js"></script>
+    <script src="Content/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+﻿body {
+    background: #f1f1f1;
+}
+
+.header {
+    background: #fff;
+}
+
+.hero__categories ul {
+    background-color: white;
+    border: 1px solid #ffffff;
+    padding-left: 0px !important;
+}
+
+.featured__item__pic {
+    background-color: white !important;
+    border-radius: 5px;
+}
+
+.drop:after {
+    position: absolute;
+    right: 33px;
+    content: "3";
+    font-family: "ElegantIcons";
+    font-size: 18px;
+    color: black;
+}
+
+.active1 {
+    background-color: #ff00001a;
+    border-left: 2px solid #ff0303;
+}
+
+.hero__categories ul li a {
+    padding-left: 30px;
+}
+
+.cssChild {
+    padding-left: 45px !important;
+}
+
+.cssChildMobile {
+    padding-left: 15px !important;
+}
+
+.featured__item__pic:hover {
+    box-shadow: rgb(0 0 0/35%) 0px 5px 15px;
+}
+
+.form-control {
+    background-color: transparent !important;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #a3abb3;
+    border-radius: 0px !important;
+    padding-left: 25px;
+}
+
+.input-group-text {
+    background-color: transparent !important;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-radius: 0px !important;
+    color: red;
+    text-align: left;
+    padding-left: 0px !important;
+    width: 0px;
+    padding-right: 0px !important;
+}
+
+.form-control:focus {
+    background-color: red;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #ff051d !important;
+    border-color: #ff0018 !important;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #ff0303 !important;
+    background-color: transparent !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-link {
+    width: 130px;
+    text-transform: uppercase !important;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+    color: black !important;
+    display: inline;
+}
+
+.demo-wrap {
+   /* overflow: hidden;
+    position: relative;*/
+    height: 100vh;
+}
+
+.demo-bg {
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.bg-formDK {
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
+    background-color: #ffffffc7;
+    padding:50px 30px;
+    border-radius:7px;
+}
+.button-width100 {
+    width: 95% !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+    .button-width100:hover {
+        width: 95% !important;
+        box-shadow: 0px 5px 5px #888888;
+    }
+
+@media only screen and (max-width: 767px) {
+    .humberger__menu__wrapper {
+        padding-bottom: 15px !important;
+        padding-top: 15px !important;
+        opacity: 0;
+        display: block;
+        -webkit-transition: all, 0.6s;
+        -moz-transition: all, 0.6s;
+        -ms-transition: all, 0.6s;
+        -o-transition: all, 0.6s;
+        transition: all, 0.6s;
+    }
+
+    .humberger__menu__logo {
+        margin-bottom: 15px !important;
+    }
+
+    .button-register {
+        text-align: center !important;
+        margin-bottom: 15px;
+    }
+    .button-width100 {
+        width: 100% !important;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+        .button-width100:hover {
+            width: 100% !important;
+            box-shadow: 0px 5px 5px #888888;
+        }
+    
+}

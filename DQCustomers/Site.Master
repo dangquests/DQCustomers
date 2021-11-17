@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="DQCustomers.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="Content/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="Content/css/style.css" type="text/css">
+    <link href="Content/css/custom.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+         <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    <!-- Humberger Begin -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+        <div class="humberger__menu__logo">
+            <a href="Default"><img class="imgMobile" src="Content/img/logo.jpg" alt=""></a>
+        </div>
+
+        <nav class="humberger__menu__nav mobile-menu">
+            <ul>
+                <li class="active"><a href="Default">Trang chủ</a></li>
+                <li><a href="Profile">Thông tin khách hàng</a></li>
+                <li>
+                    <a href="#" class="drop">Danh sách sản phẩm</a>
+                </li>
+                <li><a class="cssChildMobile" href="Profile"><i class="fa fa-barcode"></i>&nbsp;&nbsp;Đã scan</a></li>
+                <li><a class="cssChildMobile" href="Profile"><i class="fa fa-gg"></i>&nbsp;&nbsp;Đã yêu cầu bảo hành</a></li>
+                <li class="text-center"> <a class="text-danger" href="Profile"><i class="fa fa-power-off"></i>&nbsp;Thoát</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+    <!-- Humberger End -->
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="Default"><img class="imgMobile" src="Content/img/logo.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <nav class="header__menu">
+                        <ul class="text-center">
+                            <li class="active"><a href="Default">Trang chủ</a></li>
+                            <li><a href="#">Tích điểm</a></li>
+                            <li><a target="_blank" href="https://dienquang.com/blogs/tin-khuyen-mai">Khuyến mãi</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-2">
+                    <div class="header__cart">
+                        <div class="header__cart__price"><%--<i class="fa fa-user"></i><span>&nbsp;&nbsp;</span>--%>
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                                <LoggedInTemplate>
+                                            <a runat="server" href="#" style="color:black;" title="Manage your account"><i class="fa fa-user"></i>&nbsp;<%: Context.User.Identity.Name  %></a></li>
+                                </LoggedInTemplate>
+                            </asp:LoginView>
+                    </div>
+                        </div>
+                </div>
+            </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-truck font20"></i> Giao hàng nhanh chóng</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__top__left">
+                            <ul class="text-center">
+                                <li><i class="fa fa-shirtsinbulk font20"></i> Bảo hành 1 đổi 1</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__top__left">
+                            <ul class="text-center">
+                                <li><i class="fa fa-headphones font20"></i> Tư vấn tận tình</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3">
+                        <div class="header__top__left">
+                            <ul class="text-right">
+                                <li><i class="fa fa-credit-card font20"></i> Thanh toán linh hoạt</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- Header Section End -->
+        <!-- Hero Section Begin -->
+    <section class="hero">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+      </section>
+
+         <!-- Js Plugins -->
+    <script src="Content/js/jquery-3.3.1.min.js"></script>
+    <script src="Content/js/bootstrap.min.js"></script>
+    <script src="Content/js/jquery.nice-select.min.js"></script>
+    <script src="Content/js/jquery-ui.min.js"></script>
+    <script src="Content/js/jquery.slicknav.js"></script>
+    <script src="Content/js/mixitup.min.js"></script>
+    <script src="Content/js/owl.carousel.min.js"></script>
+    <script src="Content/js/main.js"></script>
+    </form>
+</body>
+</html>
