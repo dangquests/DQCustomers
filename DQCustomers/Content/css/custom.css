@@ -109,7 +109,6 @@
 }
 
 .demo-bg {
-    opacity: 0.2;
     position: absolute;
     left: 0;
     top: 0;
@@ -118,6 +117,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+}
+.bg-profile {
+    background-image: url('../img/BG2.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.box-profile {
+    box-shadow: rgb(9 30 66 / 25%) 0px 4px 8px -2px, rgb(9 30 66 / 8%) 0px 0px 0px 1px;
+    padding: 30px 30px 50px 30px;
+    background-color: #ffffffcf;
+    border-radius: 10px;
+    margin-left: 50px;
 }
 
 .bg-formDK {
@@ -128,11 +142,12 @@
 }
 .button-width100 {
     width: 95% !important;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: 0px 5px 5px #888888;
+    
 }
     .button-width100:hover {
         width: 95% !important;
-        box-shadow: 0px 5px 5px #888888;
+        box-shadow: rgb(255 5 29 / 61%) 0px 7px 29px 0px;
     }
 
 @media only screen and (max-width: 767px) {

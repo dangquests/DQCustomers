@@ -48,6 +48,11 @@
       <HintPath>..\..\..\..\..\..\..\DocumentFormat.OpenXml.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\..\..\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -189,6 +194,8 @@
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\img\banner\banner-1.jpg" />
     <Content Include="Content\img\banner\banner-2.jpg" />
+    <Content Include="Content\img\BG02.jpg" />
+    <Content Include="Content\img\BG2.png" />
     <Content Include="Content\img\bgDienQuang.png" />
     <Content Include="Content\img\blog\blog-1.jpg" />
     <Content Include="Content\img\blog\blog-2.jpg" />
@@ -226,6 +233,7 @@
     <Content Include="Content\img\latest-product\lp-3.jpg" />
     <Content Include="Content\img\logo.jpg" />
     <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\logodq.svg" />
     <Content Include="Content\img\payment-item.png" />
     <Content Include="Content\img\product\details\product-details-1.jpg" />
     <Content Include="Content\img\product\details\product-details-2.jpg" />
@@ -264,6 +272,7 @@
     <Content Include="Content\js\owl.carousel.min.js" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="DownloadFile.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\ElegantIcons.svg" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -323,6 +332,7 @@
     <Content Include="Models\DBDienQuang.edmx.diagram">
       <DependentUpon>DBDienQuang.edmx</DependentUpon>
     </Content>
+    <Content Include="2021-11-17.xlsx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="img\banner\banner-1.jpg" />
     <Content Include="img\banner\banner-2.jpg" />
@@ -569,6 +579,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadFile.aspx.cs">
+      <DependentUpon>DownloadFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DownloadFile.aspx.designer.cs">
+      <DependentUpon>DownloadFile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

@@ -15,40 +15,40 @@ namespace DQCustomers
     {
 
         /// <summary>
-        /// txtHoTen control.
+        /// txtTenSP control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtHoTen;
+        protected global::System.Web.UI.WebControls.TextBox txtTenSP;
 
         /// <summary>
-        /// txtDienThoai control.
+        /// txtNgaySX control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDienThoai;
+        protected global::System.Web.UI.WebControls.TextBox txtNgaySX;
 
         /// <summary>
-        /// txtEmail control.
+        /// txtNgaHetHan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtNgaHetHan;
 
         /// <summary>
-        /// txtDiaChi control.
+        /// txtThoiGianConBaoHanh control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDiaChi;
+        protected global::System.Web.UI.WebControls.TextBox txtThoiGianConBaoHanh;
 
         /// <summary>
         /// btnLuu control.

@@ -16,7 +16,7 @@
                             <i class="fa fa-user text-danger"></i>
                         </span>
                     </div>
-                    <asp:TextBox ID="txtHoTen" runat="server" ValidationGroup="cn" placeholder="Tên sản phẩm" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
+                    <asp:TextBox ID="txtTenSP" runat="server" ValidationGroup="cn" placeholder="Tên sản phẩm" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
                 </div>
                 <div class="input-group col-lg-8 mb-3">
                     <div class="input-group-prepend">
@@ -24,7 +24,7 @@
                             <i class="fa fa-phone text-danger"></i>
                         </span>
                     </div>
-                    <asp:TextBox ID="txtDienThoai" runat="server" ValidationGroup="cn" placeholder="Ngày sản xuất" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
+                    <asp:TextBox ID="txtNgaySX" runat="server" ValidationGroup="cn" placeholder="Ngày sản xuất" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
                 </div>
                 <div class="input-group col-lg-8 mb-3">
                     <div class="input-group-prepend">
@@ -32,7 +32,7 @@
                             <i class="fa fa-envelope-open text-danger"></i>
                         </span>
                     </div>
-                    <asp:TextBox ID="txtEmail" runat="server" ValidationGroup="cn" placeholder="Ngày hết hạn" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
+                    <asp:TextBox ID="txtNgaHetHan" runat="server" ValidationGroup="cn" placeholder="Ngày hết hạn" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
                 </div>
                 <div class="input-group col-lg-8 mb-3">
                     <div class="input-group-prepend">
@@ -40,7 +40,7 @@
                             <i class="fa fa-map-marker text-danger"></i>
                         </span>
                     </div>
-                    <asp:TextBox ID="txtDiaChi" runat="server" ValidationGroup="cn" placeholder="Thời gian còn bảo hành" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
+                    <asp:TextBox ID="txtThoiGianConBaoHanh" runat="server" ValidationGroup="cn" placeholder="Thời gian còn bảo hành" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
                 </div>
                 <div class="input-group col-lg-8 mt-4">
                     <div class="row" style="width: 100%; padding: 0px !important; margin: 0px !important;">

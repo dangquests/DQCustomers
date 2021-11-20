@@ -16,35 +16,15 @@
                         <li>
                             <a href="List" class="active1">Sản phẩm đã scan</a>
                         </li>
-                         <li>
-                             <asp:LinkButton ID="lbtThoat" OnClick="lbtThoat_Click" runat="server">Thoát</asp:LinkButton>
+                        <li>
+                            <asp:LinkButton ID="lbtThoat" OnClick="lbtThoat_Click" runat="server">Thoát</asp:LinkButton>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="col-lg-9 col-md-9">
                 <div class="row featured__filter">
-                    <asp:Repeater runat="server" ID="rptList">
-                        <ItemTemplate>
-                            <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
-                                <div class="featured__item">
-                                    <div class="featured__item__pic set-bg" data-setbg="img/featured/1.png">
-                                    </div>
-                                    <div class="featured__item__text">
-                                        <h6><a href="#">Bộ đèn LED High bay HERA 1 - 100</a></h6>
-                                        <span class="text-danger float-left font-weight-bold">14/10/2021</span>
-                                        <div class="product__details__rating float-right">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-half-o"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </ItemTemplate>
-                    </asp:Repeater>
+
 
                     <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
                         <div class="featured__item">
@@ -181,6 +161,37 @@
                     </div>
                 </div>
 
+            </div>
+
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-9 offset-md-1">
+                        <div class="row box-profile">
+                            <asp:Repeater runat="server" ID="rptList">
+                                <ItemTemplate>
+                                    <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+                                        <div class="featured__item">
+                                            <div class="featured__item__pic set-bg" data-setbg="img/featured/1.png">
+                                            </div>
+                                            <div class="featured__item__text">
+                                                <h6><a href="#">Bộ đèn LED High bay HERA 1 - 100</a></h6>
+                                                <span class="text-danger float-left font-weight-bold">14/10/2021</span>
+                                                <div class="product__details__rating float-right">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-half-o"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </ItemTemplate>
+                            </asp:Repeater>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

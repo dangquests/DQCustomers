@@ -37,7 +37,7 @@
                     <ul>
                         <li class="active1"><a href="Profile">Thông tin khách hàng</a></li>
                         <li>
-                            <a href="List" class="">Sản phẩm đã scan</a>
+                            <a href="List" class="">Theo dõi sản phẩm</a>
                         </li>
                        <%-- <li>
                             <a href="List" class="cssChild"><i class="fa fa-barcode"></i>&nbsp;&nbsp;Đã scan</a>
@@ -48,8 +48,12 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-9 col-md-9">
-                <div class="input-group col-lg-8 mb-3">
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-9 offset-md-1">
+                        <div class="row box-profile">
+                    
+                <div class="input-group col-lg-12 mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text bg-white px-4 border-md border-right-0">
                             <i class="fa fa-user text-danger"></i>
@@ -57,7 +61,7 @@
                     </div>
                     <asp:TextBox ID="txtHoTen" runat="server" ValidationGroup="cn" placeholder="Họ và tên" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
                 </div>
-                <div class="input-group col-lg-8 mb-3">
+                <div class="input-group col-lg-12 mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text bg-white px-4 border-md border-right-0">
                             <i class="fa fa-phone text-danger"></i>
@@ -65,7 +69,7 @@
                     </div>
                     <asp:TextBox ID="txtDienThoai" runat="server" ValidationGroup="cn" placeholder="Điện thoại" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
                 </div>
-                <div class="input-group col-lg-8 mb-3">
+                <div class="input-group col-lg-12 mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text bg-white px-4 border-md border-right-0">
                             <i class="fa fa-envelope-open text-danger"></i>
@@ -73,7 +77,7 @@
                     </div>
                     <asp:TextBox ID="txtEmail" runat="server" ValidationGroup="cn" placeholder="Email" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
                 </div>
-                <div class="input-group col-lg-8 mb-3">
+                <div class="input-group col-lg-12 mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text bg-white px-4 border-md border-right-0">
                             <i class="fa fa-map-marker text-danger"></i>
@@ -81,7 +85,7 @@
                     </div>
                     <asp:TextBox ID="txtDiaChi" runat="server" ValidationGroup="cn" placeholder="Địa chỉ" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
                 </div>
-                <div class="input-group col-lg-8 mb-3">
+                <div class="input-group col-lg-12 mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text bg-white px-4 border-md border-right-0">
                             <i class="fa fa-unlock-alt text-danger"></i>
@@ -89,7 +93,7 @@
                     </div>
                     <asp:TextBox ID="txtMatKhau1" runat="server" ValidationGroup="cn" TextMode="Password"  placeholder="Mật khẩu" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
                 </div>
-                <div class="input-group col-lg-8 mb-3">
+                <div class="input-group col-lg-12 mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text bg-white px-4 border-md border-right-0">
                             <i class="fa fa-unlock-alt text-danger"></i>
@@ -97,12 +101,12 @@
                     </div>
                     <asp:TextBox ID="txtNhapLaiMK" runat="server" ValidationGroup="cn" TextMode="Password" placeholder="Nhập lại mật khẩu" CssClass="form-control bg-white border-left-0 border-md"></asp:TextBox>
                 </div>
-                <div class="input-group col-lg-8 mt-4">
+                <div class="input-group col-lg-12 mt-4">
                     <div class="row" style="width: 100%; padding: 0px !important; margin: 0px !important;">
                         <asp:Label ID="lblMess" runat="server" Text=""></asp:Label>
                     </div>
                 </div>
-                <div class="input-group col-lg-8 mt-4">
+                <div class="input-group col-lg-12 mt-4">
                     <div class="row" style="width: 100%; padding: 0px !important; margin: 0px !important;">
 
                         <div class="col-md-6 text-left button-register" style="padding: 0px!important;">
@@ -123,7 +127,8 @@
                         </div>
                     </div>
                 </div>
-
+                </div>
+                </div></div>
             </div>
         </div>
     </div>
